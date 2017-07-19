@@ -1,0 +1,8 @@
+def main ():
+	i = int(input("enter num here..:"))
+	sum = 0 
+	for x in range (0,i+1):
+		sum += x
+	print(sum)
+if __name__ == '__main__':
+	main ()
